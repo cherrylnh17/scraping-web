@@ -7,27 +7,16 @@ Proyek ini adalah pipeline **ETL (Extract, Transform, Load)** dalam Python yang 
 ## Struktur Proyek
 
 ├── main.py                # Skrip utama untuk menjalankan pipeline ETL
-
 ├── requirements.txt       # Daftar dependensi Python
-
 ├── .env                   # File konfigurasi (tidak di-commit, lihat .gitignore)
-
 ├── .gitignore             # Daftar file/direktori yang diabaikan Git
-
 ├── utils/
-
 │   ├── extract.py         # Modul untuk tahap Extract (Scraping)
-
 │   ├── transform.py       # Modul untuk tahap Transform (Pembersihan & Olah Data)
-
 │   └── load.py            # Modul untuk tahap Load (Penyimpanan ke CSV/DB/Google Sheets)
-
 └── tests/
-
     ├── test_extract.py    # Unit test untuk extract.py
-    
     ├── test_transform.py  # Unit test untuk transform.py
-    
     └── test_load.py       # Unit test untuk load.py
     
 
