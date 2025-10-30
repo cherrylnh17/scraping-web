@@ -1,0 +1,14 @@
+# File konfigurasi environment (.env)
+DATABASE_URL=example_value
+SPREADSHEET_ID=random123
+CREDS_PATH=google-sheets-api.json
+
+# Menjalankan skrip
+python main.py --pages 50 --output products.csv
+
+# Menjalankan unit test
+python -m pytest tests
+
+# Test coverage
+coverage run -m pytest tests
+coverage report -m
